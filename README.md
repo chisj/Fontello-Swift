@@ -16,17 +16,7 @@ use_frameworks!
 pod 'Fontello-Swift'
 
 ```
-
-##Usage
-
-```
-import Fontello_Swift
-
-label.font = FontAwesome.fontOfSize(17)
-label.text = FontAwesome.stringWithName(.Mail)
-```
-
-Or use specified fonts
+Or install specified fonts
 
 ```
 pod 'Fontello-Swift/FontAwesome'
@@ -45,10 +35,20 @@ pod 'Fontello-Swift/Elusive'
 pod 'Fontello-Swift/Websymbols'
 
 ```
+##Usage
+
+```
+import Fontello_Swift
+
+label.font = FontAwesome.fontOfSize(17)
+label.text = FontAwesome.stringWithName(.Mail)
+```
+
+
 
 
 ##License
-Fontello-Swift is available under the MIT license. See the LICENSE file for more info.
+Fontello-Swift is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
 
 ##Fonts License
 
@@ -80,5 +80,5 @@ Linecons by Designmodo for Smashing Magazine license: CC BY
 
 Web Symbols by Just Be Nice studio license: SIL
 
-more info from [http://fontello.com/](http://fontello.com/)
+more info refer to [http://fontello.com/](http://fontello.com/)
 
