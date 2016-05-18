@@ -1,5 +1,8 @@
 #Fontello-Swift
 
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://raw.githubusercontent.com/chisj/Fontello-Swift/master/LICENSE)&nbsp;
+[![CocoaPods](https://img.shields.io/badge/pod-1.0-blue.svg)](http://cocoapods.org/?q=Fontello-Swift)&nbsp;
+
 Fontello icon font library for Swift. support icon fonts from [http://fontello.com/](http://fontello.com/)
 
 ![screenShot](ScreenShot/screen_shot1.png)
