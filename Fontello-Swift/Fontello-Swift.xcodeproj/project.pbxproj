@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BDDA9431CE822670057AA81 /* Fontello-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDDA9421CE822670057AA81 /* Fontello-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BDDA94B1CE822DD0057AA81 /* Fontello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA94A1CE822DD0057AA81 /* Fontello.swift */; };
+		5BDDA9551CE82CD70057AA81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9541CE82CD70057AA81 /* AppDelegate.swift */; };
+		5BDDA9571CE82CD70057AA81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9561CE82CD70057AA81 /* ViewController.swift */; };
+		5BDDA95C1CE82CD70057AA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA95B1CE82CD70057AA81 /* Assets.xcassets */; };
+		5BDDA95F1CE82CD70057AA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA95D1CE82CD70057AA81 /* LaunchScreen.storyboard */; };
+		5BDDA9891CE877800057AA81 /* fontello_fontelico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9881CE877610057AA81 /* fontello_fontelico.ttf */; };
+		5BDDA98F1CE87BC30057AA81 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA98E1CE87BC30057AA81 /* FontAwesome.swift */; };
+		5BDDA9911CE87BFA0057AA81 /* Fontelico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9901CE87BFA0057AA81 /* Fontelico.swift */; };
+		5BDDA9931CE87CC80057AA81 /* fontello_fontawesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9921CE87CC80057AA81 /* fontello_fontawesome.ttf */; };
+		5BDDA9991CE883420057AA81 /* Entypo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9981CE883420057AA81 /* Entypo.swift */; };
+		5BDDA99B1CE883600057AA81 /* fontello_entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA99A1CE883600057AA81 /* fontello_entypo.ttf */; };
+		5BDDA9A11CE886110057AA81 /* Typicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9A01CE886110057AA81 /* Typicons.swift */; };
+		5BDDA9A91CE88A6E0057AA81 /* fontello_typicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9A81CE88A6E0057AA81 /* fontello_typicons.ttf */; };
+		5BDDA9AF1CE89F130057AA81 /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9AE1CE89F130057AA81 /* Iconic.swift */; };
+		5BDDA9B11CE89F620057AA81 /* fontello_iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9B01CE89F620057AA81 /* fontello_iconic.ttf */; };
+		5BDDA9B71CE8A1AD0057AA81 /* ModernPictograms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9B61CE8A1AD0057AA81 /* ModernPictograms.swift */; };
+		5BDDA9B91CE8A1FA0057AA81 /* fontello_modernpictograms.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9B81CE8A1FA0057AA81 /* fontello_modernpictograms.ttf */; };
+		5BDDA9BF1CE8A50B0057AA81 /* Meteocons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9BE1CE8A50B0057AA81 /* Meteocons.swift */; };
+		5BDDA9C11CE8A5AE0057AA81 /* fontello_meteocons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9C01CE8A5AE0057AA81 /* fontello_meteocons.ttf */; };
+		5BDDA9C71CE8A7DA0057AA81 /* MFGLabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9C61CE8A7DA0057AA81 /* MFGLabs.swift */; };
+		5BDDA9C91CE8A8150057AA81 /* fontello_mfglabs.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9C81CE8A8150057AA81 /* fontello_mfglabs.ttf */; };
+		5BDDA9CF1CE8A9DA0057AA81 /* Maki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9CE1CE8A9DA0057AA81 /* Maki.swift */; };
+		5BDDA9D11CE8AA370057AA81 /* fontello_maki.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9D01CE8AA370057AA81 /* fontello_maki.ttf */; };
+		5BDDA9D71CE8AB6D0057AA81 /* Zocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9D61CE8AB6D0057AA81 /* Zocial.swift */; };
+		5BDDA9D91CE8AB880057AA81 /* fontello_zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9D81CE8AB880057AA81 /* fontello_zocial.ttf */; };
+		5BDDA9DF1CE8B09E0057AA81 /* Brandico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9DE1CE8B09E0057AA81 /* Brandico.swift */; };
+		5BDDA9E11CE8B0E50057AA81 /* fontello_brandico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9E01CE8B0E50057AA81 /* fontello_brandico.ttf */; };
+		5BDDA9E71CE8B2270057AA81 /* Elusive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9E61CE8B2270057AA81 /* Elusive.swift */; };
+		5BDDA9E91CE8B2790057AA81 /* fontello_elusive.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9E81CE8B2790057AA81 /* fontello_elusive.ttf */; };
+		5BDDA9EF1CE8B3D10057AA81 /* Linecons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9EE1CE8B3D10057AA81 /* Linecons.swift */; };
+		5BDDA9F11CE8B45C0057AA81 /* fontello_linecons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9F01CE8B45C0057AA81 /* fontello_linecons.ttf */; };
+		5BDDA9F71CE8B5630057AA81 /* Websymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9F61CE8B5630057AA81 /* Websymbols.swift */; };
+		5BDDA9F91CE8B5B80057AA81 /* fontello_websymbols.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9F81CE8B5B80057AA81 /* fontello_websymbols.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BDDA93F1CE822670057AA81 /* Fontello_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fontello_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDDA9421CE822670057AA81 /* Fontello-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fontello-Swift.h"; sourceTree = "<group>"; };
+		5BDDA9441CE822670057AA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BDDA94A1CE822DD0057AA81 /* Fontello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fontello.swift; sourceTree = "<group>"; };
+		5BDDA9521CE82CD70057AA81 /* Fontello_Swift_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fontello_Swift_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDDA9541CE82CD70057AA81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BDDA9561CE82CD70057AA81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BDDA95B1CE82CD70057AA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BDDA95E1CE82CD70057AA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BDDA9601CE82CD70057AA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BDDA9881CE877610057AA81 /* fontello_fontelico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_fontelico.ttf; sourceTree = "<group>"; };
+		5BDDA98E1CE87BC30057AA81 /* FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesome.swift; sourceTree = "<group>"; };
+		5BDDA9901CE87BFA0057AA81 /* Fontelico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fontelico.swift; sourceTree = "<group>"; };
+		5BDDA9921CE87CC80057AA81 /* fontello_fontawesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_fontawesome.ttf; sourceTree = "<group>"; };
+		5BDDA9981CE883420057AA81 /* Entypo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entypo.swift; sourceTree = "<group>"; };
+		5BDDA99A1CE883600057AA81 /* fontello_entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_entypo.ttf; sourceTree = "<group>"; };
+		5BDDA9A01CE886110057AA81 /* Typicons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typicons.swift; sourceTree = "<group>"; };
+		5BDDA9A81CE88A6E0057AA81 /* fontello_typicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_typicons.ttf; sourceTree = "<group>"; };
+		5BDDA9AE1CE89F130057AA81 /* Iconic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iconic.swift; sourceTree = "<group>"; };
+		5BDDA9B01CE89F620057AA81 /* fontello_iconic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_iconic.ttf; sourceTree = "<group>"; };
+		5BDDA9B61CE8A1AD0057AA81 /* ModernPictograms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernPictograms.swift; sourceTree = "<group>"; };
+		5BDDA9B81CE8A1FA0057AA81 /* fontello_modernpictograms.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_modernpictograms.ttf; sourceTree = "<group>"; };
+		5BDDA9BE1CE8A50B0057AA81 /* Meteocons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meteocons.swift; sourceTree = "<group>"; };
+		5BDDA9C01CE8A5AE0057AA81 /* fontello_meteocons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_meteocons.ttf; sourceTree = "<group>"; };
+		5BDDA9C61CE8A7DA0057AA81 /* MFGLabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFGLabs.swift; sourceTree = "<group>"; };
+		5BDDA9C81CE8A8150057AA81 /* fontello_mfglabs.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_mfglabs.ttf; sourceTree = "<group>"; };
+		5BDDA9CE1CE8A9DA0057AA81 /* Maki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maki.swift; sourceTree = "<group>"; };
+		5BDDA9D01CE8AA370057AA81 /* fontello_maki.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_maki.ttf; sourceTree = "<group>"; };
+		5BDDA9D61CE8AB6D0057AA81 /* Zocial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zocial.swift; sourceTree = "<group>"; };
+		5BDDA9D81CE8AB880057AA81 /* fontello_zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_zocial.ttf; sourceTree = "<group>"; };
+		5BDDA9DE1CE8B09E0057AA81 /* Brandico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brandico.swift; sourceTree = "<group>"; };
+		5BDDA9E01CE8B0E50057AA81 /* fontello_brandico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_brandico.ttf; sourceTree = "<group>"; };
+		5BDDA9E61CE8B2270057AA81 /* Elusive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Elusive.swift; sourceTree = "<group>"; };
+		5BDDA9E81CE8B2790057AA81 /* fontello_elusive.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_elusive.ttf; sourceTree = "<group>"; };
+		5BDDA9EE1CE8B3D10057AA81 /* Linecons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Linecons.swift; sourceTree = "<group>"; };
+		5BDDA9F01CE8B45C0057AA81 /* fontello_linecons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_linecons.ttf; sourceTree = "<group>"; };
+		5BDDA9F61CE8B5630057AA81 /* Websymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Websymbols.swift; sourceTree = "<group>"; };
+		5BDDA9F81CE8B5B80057AA81 /* fontello_websymbols.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello_websymbols.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BDDA93B1CE822670057AA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BDDA94F1CE82CD70057AA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BDDA9351CE822670057AA81 = {
+			isa = PBXGroup;
+			children = (
+				5BDDA9411CE822670057AA81 /* Fontello-Swift */,
+				5BDDA9531CE82CD70057AA81 /* Fontello_Swift_Sample */,
+				5BDDA9401CE822670057AA81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BDDA9401CE822670057AA81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BDDA93F1CE822670057AA81 /* Fontello_Swift.framework */,
+				5BDDA9521CE82CD70057AA81 /* Fontello_Swift_Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BDDA9411CE822670057AA81 /* Fontello-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				5BDDA9F01CE8B45C0057AA81 /* fontello_linecons.ttf */,
+				5BDDA9F81CE8B5B80057AA81 /* fontello_websymbols.ttf */,
+				5BDDA9E81CE8B2790057AA81 /* fontello_elusive.ttf */,
+				5BDDA9E01CE8B0E50057AA81 /* fontello_brandico.ttf */,
+				5BDDA9D81CE8AB880057AA81 /* fontello_zocial.ttf */,
+				5BDDA9D01CE8AA370057AA81 /* fontello_maki.ttf */,
+				5BDDA9C81CE8A8150057AA81 /* fontello_mfglabs.ttf */,
+				5BDDA9C01CE8A5AE0057AA81 /* fontello_meteocons.ttf */,
+				5BDDA9B01CE89F620057AA81 /* fontello_iconic.ttf */,
+				5BDDA9A81CE88A6E0057AA81 /* fontello_typicons.ttf */,
+				5BDDA99A1CE883600057AA81 /* fontello_entypo.ttf */,
+				5BDDA9921CE87CC80057AA81 /* fontello_fontawesome.ttf */,
+				5BDDA9881CE877610057AA81 /* fontello_fontelico.ttf */,
+				5BDDA9B81CE8A1FA0057AA81 /* fontello_modernpictograms.ttf */,
+				5BDDA9421CE822670057AA81 /* Fontello-Swift.h */,
+				5BDDA9AE1CE89F130057AA81 /* Iconic.swift */,
+				5BDDA9981CE883420057AA81 /* Entypo.swift */,
+				5BDDA98E1CE87BC30057AA81 /* FontAwesome.swift */,
+				5BDDA9901CE87BFA0057AA81 /* Fontelico.swift */,
+				5BDDA9A01CE886110057AA81 /* Typicons.swift */,
+				5BDDA9B61CE8A1AD0057AA81 /* ModernPictograms.swift */,
+				5BDDA9C61CE8A7DA0057AA81 /* MFGLabs.swift */,
+				5BDDA9BE1CE8A50B0057AA81 /* Meteocons.swift */,
+				5BDDA9CE1CE8A9DA0057AA81 /* Maki.swift */,
+				5BDDA9D61CE8AB6D0057AA81 /* Zocial.swift */,
+				5BDDA9EE1CE8B3D10057AA81 /* Linecons.swift */,
+				5BDDA9DE1CE8B09E0057AA81 /* Brandico.swift */,
+				5BDDA9E61CE8B2270057AA81 /* Elusive.swift */,
+				5BDDA9F61CE8B5630057AA81 /* Websymbols.swift */,
+				5BDDA94A1CE822DD0057AA81 /* Fontello.swift */,
+				5BDDA9441CE822670057AA81 /* Info.plist */,
+			);
+			path = "Fontello-Swift";
+			sourceTree = "<group>";
+		};
+		5BDDA9531CE82CD70057AA81 /* Fontello_Swift_Sample */ = {
+			isa = PBXGroup;
+			children = (
+				5BDDA9541CE82CD70057AA81 /* AppDelegate.swift */,
+				5BDDA9561CE82CD70057AA81 /* ViewController.swift */,
+				5BDDA95B1CE82CD70057AA81 /* Assets.xcassets */,
+				5BDDA95D1CE82CD70057AA81 /* LaunchScreen.storyboard */,
+				5BDDA9601CE82CD70057AA81 /* Info.plist */,
+			);
+			path = Fontello_Swift_Sample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5BDDA93C1CE822670057AA81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDDA9431CE822670057AA81 /* Fontello-Swift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BDDA93E1CE822670057AA81 /* Fontello_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BDDA9471CE822670057AA81 /* Build configuration list for PBXNativeTarget "Fontello_Swift" */;
+			buildPhases = (
+				5BDDA93A1CE822670057AA81 /* Sources */,
+				5BDDA93B1CE822670057AA81 /* Frameworks */,
+				5BDDA93C1CE822670057AA81 /* Headers */,
+				5BDDA93D1CE822670057AA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fontello_Swift;
+			productName = "Fontello-Swift";
+			productReference = 5BDDA93F1CE822670057AA81 /* Fontello_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BDDA9511CE82CD70057AA81 /* Fontello_Swift_Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BDDA9611CE82CD70057AA81 /* Build configuration list for PBXNativeTarget "Fontello_Swift_Sample" */;
+			buildPhases = (
+				5BDDA94E1CE82CD70057AA81 /* Sources */,
+				5BDDA94F1CE82CD70057AA81 /* Frameworks */,
+				5BDDA9501CE82CD70057AA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fontello_Swift_Sample;
+			productName = Fontello_Swift_Sample;
+			productReference = 5BDDA9521CE82CD70057AA81 /* Fontello_Swift_Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BDDA9361CE822670057AA81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WS;
+				TargetAttributes = {
+					5BDDA93E1CE822670057AA81 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5BDDA9511CE82CD70057AA81 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5BDDA9391CE822670057AA81 /* Build configuration list for PBXProject "Fontello-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BDDA9351CE822670057AA81;
+			productRefGroup = 5BDDA9401CE822670057AA81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BDDA93E1CE822670057AA81 /* Fontello_Swift */,
+				5BDDA9511CE82CD70057AA81 /* Fontello_Swift_Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BDDA93D1CE822670057AA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDDA9A91CE88A6E0057AA81 /* fontello_typicons.ttf in Resources */,
+				5BDDA9931CE87CC80057AA81 /* fontello_fontawesome.ttf in Resources */,
+				5BDDA9F91CE8B5B80057AA81 /* fontello_websymbols.ttf in Resources */,
+				5BDDA99B1CE883600057AA81 /* fontello_entypo.ttf in Resources */,
+				5BDDA9E91CE8B2790057AA81 /* fontello_elusive.ttf in Resources */,
+				5BDDA9B91CE8A1FA0057AA81 /* fontello_modernpictograms.ttf in Resources */,
+				5BDDA9891CE877800057AA81 /* fontello_fontelico.ttf in Resources */,
+				5BDDA9C11CE8A5AE0057AA81 /* fontello_meteocons.ttf in Resources */,
+				5BDDA9E11CE8B0E50057AA81 /* fontello_brandico.ttf in Resources */,
+				5BDDA9C91CE8A8150057AA81 /* fontello_mfglabs.ttf in Resources */,
+				5BDDA9F11CE8B45C0057AA81 /* fontello_linecons.ttf in Resources */,
+				5BDDA9B11CE89F620057AA81 /* fontello_iconic.ttf in Resources */,
+				5BDDA9D11CE8AA370057AA81 /* fontello_maki.ttf in Resources */,
+				5BDDA9D91CE8AB880057AA81 /* fontello_zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BDDA9501CE82CD70057AA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDDA95F1CE82CD70057AA81 /* LaunchScreen.storyboard in Resources */,
+				5BDDA95C1CE82CD70057AA81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BDDA93A1CE822670057AA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDDA9C71CE8A7DA0057AA81 /* MFGLabs.swift in Sources */,
+				5BDDA9AF1CE89F130057AA81 /* Iconic.swift in Sources */,
+				5BDDA9911CE87BFA0057AA81 /* Fontelico.swift in Sources */,
+				5BDDA9DF1CE8B09E0057AA81 /* Brandico.swift in Sources */,
+				5BDDA9E71CE8B2270057AA81 /* Elusive.swift in Sources */,
+				5BDDA98F1CE87BC30057AA81 /* FontAwesome.swift in Sources */,
+				5BDDA9991CE883420057AA81 /* Entypo.swift in Sources */,
+				5BDDA9CF1CE8A9DA0057AA81 /* Maki.swift in Sources */,
+				5BDDA9EF1CE8B3D10057AA81 /* Linecons.swift in Sources */,
+				5BDDA9B71CE8A1AD0057AA81 /* ModernPictograms.swift in Sources */,
+				5BDDA9F71CE8B5630057AA81 /* Websymbols.swift in Sources */,
+				5BDDA9D71CE8AB6D0057AA81 /* Zocial.swift in Sources */,
+				5BDDA94B1CE822DD0057AA81 /* Fontello.swift in Sources */,
+				5BDDA9A11CE886110057AA81 /* Typicons.swift in Sources */,
+				5BDDA9BF1CE8A50B0057AA81 /* Meteocons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BDDA94E1CE82CD70057AA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDDA9571CE82CD70057AA81 /* ViewController.swift in Sources */,
+				5BDDA9551CE82CD70057AA81 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BDDA95D1CE82CD70057AA81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BDDA95E1CE82CD70057AA81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BDDA9451CE822670057AA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BDDA9461CE822670057AA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BDDA9481CE822670057AA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Fontello-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caolvchong.Fontello-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BDDA9491CE822670057AA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Fontello-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caolvchong.Fontello-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5BDDA9621CE82CD70057AA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fontello_Swift_Sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caolvchong.Fontello-Swift-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BDDA9631CE82CD70057AA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fontello_Swift_Sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caolvchong.Fontello-Swift-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BDDA9391CE822670057AA81 /* Build configuration list for PBXProject "Fontello-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BDDA9451CE822670057AA81 /* Debug */,
+				5BDDA9461CE822670057AA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BDDA9471CE822670057AA81 /* Build configuration list for PBXNativeTarget "Fontello_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BDDA9481CE822670057AA81 /* Debug */,
+				5BDDA9491CE822670057AA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BDDA9611CE82CD70057AA81 /* Build configuration list for PBXNativeTarget "Fontello_Swift_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BDDA9621CE82CD70057AA81 /* Debug */,
+				5BDDA9631CE82CD70057AA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BDDA9361CE822670057AA81 /* Project object */;
+}
