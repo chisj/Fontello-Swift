@@ -231,6 +231,7 @@
 				TargetAttributes = {
 					5BDDA93E1CE822670057AA81 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					5BDDA9511CE82CD70057AA81 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -442,6 +443,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -460,6 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.caolvchong.Fontello-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
