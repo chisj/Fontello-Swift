@@ -8,37 +8,37 @@
 
 import UIKit
 
-public class Fontello {
+open class Fontello {
     
-    public static func fontOfSize(fontSize: CGFloat, name: String) -> UIFont {
-        if UIFont.fontNamesForFamilyName(name).isEmpty {
+    open static func fontOfSize(_ fontSize: CGFloat, name: String) -> UIFont {
+        if UIFont.fontNames(forFamilyName: name).isEmpty {
             Fontello.loadFont(name)
         }
         
         return UIFont(name: name, size: fontSize)!
     }
 
-    static func loadFont(name: String) {
-        let bundle = NSBundle(forClass: Fontello.self)
-        var fontURL = NSURL()
+    static func loadFont(_ name: String) {
+        let bundle = Bundle(for: Fontello.self)
+        var fontURL = URL()
         let identifier = bundle.bundleIdentifier
         
         if identifier?.hasPrefix("org.cocoapods") == true {
-            fontURL = bundle.URLForResource(name, withExtension: "ttf", subdirectory: "\(name).bundle")!
+            fontURL = bundle.url(forResource: name, withExtension: "ttf", subdirectory: "\(name).bundle")!
         } else {
-            fontURL = bundle.URLForResource(name, withExtension: "ttf")!
+            fontURL = bundle.url(forResource: name, withExtension: "ttf")!
         }
         
-        let data = NSData(contentsOfURL: fontURL)!
+        let data = try! Data(contentsOf: fontURL)
         
-        let provider = CGDataProviderCreateWithCFData(data)
-        let font = CGFontCreateWithDataProvider(provider)!
+        let provider = CGDataProvider(data: data)
+        let font = CGFont(provider)!
         
         var error: Unmanaged<CFError>?
         if !CTFontManagerRegisterGraphicsFont(font, &error) {
-            let errorDescription: CFStringRef = CFErrorCopyDescription(error!.takeUnretainedValue())
+            let errorDescription: CFString = CFErrorCopyDescription(error!.takeUnretainedValue())
             let nsError = error!.takeUnretainedValue() as AnyObject as! NSError
-            NSException(name: NSInternalInconsistencyException, reason: errorDescription as String, userInfo: [NSUnderlyingErrorKey: nsError]).raise()
+            NSException(name: NSExceptionName.internalInconsistencyException, reason: errorDescription as String, userInfo: [NSUnderlyingErrorKey: nsError]).raise()
         }
     }
 

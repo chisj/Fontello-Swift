@@ -10,16 +10,16 @@ import UIKit
 
 public extension Websymbols {
 
-    public static func fontOfSize(fontSize: CGFloat) -> UIFont {
+    public static func fontOfSize(_ fontSize: CGFloat) -> UIFont {
         return Fontello.fontOfSize(fontSize, name: "fontello_websymbols")
     }
     
-    public static func stringWithName(name: Websymbols) -> String {
-        return name.rawValue.substringToIndex(name.rawValue.startIndex.advancedBy(1))
+    public static func stringWithName(_ name: Websymbols) -> String {
+        return name.rawValue.substring(to: name.rawValue.characters.index(name.rawValue.startIndex, offsetBy: 1))
     }
     
-    public static func stringWithCode(code: String) -> String? {
-        guard let raw = WebsymbolsIcons[code], icon = Websymbols(rawValue: raw) else {
+    public static func stringWithCode(_ code: String) -> String? {
+        guard let raw = WebsymbolsIcons[code], let icon = Websymbols(rawValue: raw) else {
             return nil
         }
         
