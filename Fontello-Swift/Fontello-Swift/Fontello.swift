@@ -20,7 +20,7 @@ open class Fontello {
 
     static func loadFont(_ name: String) {
         let bundle = Bundle(for: Fontello.self)
-        var fontURL = URL()
+        var fontURL = URL(string:"")
         let identifier = bundle.bundleIdentifier
         
         if identifier?.hasPrefix("org.cocoapods") == true {
@@ -29,10 +29,10 @@ open class Fontello {
             fontURL = bundle.url(forResource: name, withExtension: "ttf")!
         }
         
-        let data = try! Data(contentsOf: fontURL)
+        let data = try! Data(contentsOf: fontURL!)
         
-        let provider = CGDataProvider(data: data)
-        let font = CGFont(provider)!
+        let provider = CGDataProvider(data: data as CFData)
+        let font = CGFont(provider!)
         
         var error: Unmanaged<CFError>?
         if !CTFontManagerRegisterGraphicsFont(font, &error) {

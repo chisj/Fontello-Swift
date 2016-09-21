@@ -10,8 +10,8 @@ import UIKit
 import Fontello_Swift
 
 class ViewController: UIViewController {
-    private let tablelView = UITableView(frame:CGRectZero, style: .Plain)
-    private let fontData = [["font":Fontelico.fontOfSize(17), "text":Fontelico.stringWithName(.Ie) + "  Fontelico IE"],
+    fileprivate let tablelView = UITableView(frame:CGRect.zero, style: .plain)
+    fileprivate let fontData = [["font":Fontelico.fontOfSize(17), "text":Fontelico.stringWithName(.Ie) + "  Fontelico IE"],
                             ["font":FontAwesome.fontOfSize(17), "text":FontAwesome.stringWithName(.Mail) + "  FontAwesome Mail"],
                             ["font":Entypo.fontOfSize(17), "text":Entypo.stringWithName(.Renren) + "  Entypo Renren"],
                             ["font":Typicons.fontOfSize(17), "text":Typicons.stringWithName(.Vimeo) + "  Typicons Vimeo"],
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         tablelView.frame = view.bounds
         tablelView.delegate = self
         tablelView.dataSource = self
-        tablelView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")
+        tablelView.register(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")
         view.addSubview(tablelView)
     }
 
@@ -45,13 +45,13 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: UITableViewDataSource {
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 14
     }
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("UITableViewCell", forIndexPath: indexPath)
-        cell.selectionStyle = .None
-        cell.textLabel?.textColor = UIColor.orangeColor()
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell", for: indexPath)
+        cell.selectionStyle = .none
+        cell.textLabel?.textColor = UIColor.orange
         cell.textLabel?.font = fontData[indexPath.row]["font"] as! UIFont
         cell.textLabel?.text = fontData[indexPath.row]["text"] as? String
         
@@ -61,7 +61,7 @@ extension ViewController: UITableViewDataSource {
 }
 
 extension ViewController: UITableViewDelegate {
-    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 44
     }
     
