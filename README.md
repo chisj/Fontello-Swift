@@ -10,7 +10,8 @@ Fontello icon font library for Swift. support icon fonts from [http://fontello.c
 ##Requirements
 
 * iOS 8.0+
-* Swift 2.2
+* Swift 3.0 (v 1.2)
+* Swift 2.2 (v 1.0)
 
 ##Installation
 
@@ -84,4 +85,3 @@ Linecons by Designmodo for Smashing Magazine license: CC BY
 Web Symbols by Just Be Nice studio license: SIL
 
 more info refer to [http://fontello.com/](http://fontello.com/)
-
