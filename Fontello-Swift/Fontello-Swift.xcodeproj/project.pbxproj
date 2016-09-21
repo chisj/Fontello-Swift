@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1FA18F1D922931007D3B1D /* Fontello_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDDA93F1CE822670057AA81 /* Fontello_Swift.framework */; };
+		5B1FA1901D922931007D3B1D /* Fontello_Swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDDA93F1CE822670057AA81 /* Fontello_Swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5BDDA9431CE822670057AA81 /* Fontello-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDDA9421CE822670057AA81 /* Fontello-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BDDA94B1CE822DD0057AA81 /* Fontello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA94A1CE822DD0057AA81 /* Fontello.swift */; };
 		5BDDA9551CE82CD70057AA81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9541CE82CD70057AA81 /* AppDelegate.swift */; };
@@ -41,8 +43,31 @@
 		5BDDA9F11CE8B45C0057AA81 /* fontello_linecons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9F01CE8B45C0057AA81 /* fontello_linecons.ttf */; };
 		5BDDA9F71CE8B5630057AA81 /* Websymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDA9F61CE8B5630057AA81 /* Websymbols.swift */; };
 		5BDDA9F91CE8B5B80057AA81 /* fontello_websymbols.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDA9F81CE8B5B80057AA81 /* fontello_websymbols.ttf */; };
-		5BFBC3D41D9210FD0027CDE6 /* Fontello_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDDA93F1CE822670057AA81 /* Fontello_Swift.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B1FA1911D922931007D3B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BDDA9361CE822670057AA81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BDDA93E1CE822670057AA81;
+			remoteInfo = Fontello_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B1FA1931D922931007D3B1D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5B1FA1901D922931007D3B1D /* Fontello_Swift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5BDDA93F1CE822670057AA81 /* Fontello_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fontello_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BFBC3D41D9210FD0027CDE6 /* Fontello_Swift.framework in Frameworks */,
+				5B1FA18F1D922931007D3B1D /* Fontello_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,10 +236,12 @@
 				5BDDA94E1CE82CD70057AA81 /* Sources */,
 				5BDDA94F1CE82CD70057AA81 /* Frameworks */,
 				5BDDA9501CE82CD70057AA81 /* Resources */,
+				5B1FA1931D922931007D3B1D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5B1FA1921D922931007D3B1D /* PBXTargetDependency */,
 			);
 			name = Fontello_Swift_Sample;
 			productName = Fontello_Swift_Sample;
@@ -237,6 +264,7 @@
 					};
 					5BDDA9511CE82CD70057AA81 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = N52PBWU8RW;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -326,6 +354,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B1FA1921D922931007D3B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BDDA93E1CE822670057AA81 /* Fontello_Swift */;
+			targetProxy = 5B1FA1911D922931007D3B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5BDDA95D1CE82CD70057AA81 /* LaunchScreen.storyboard */ = {
@@ -479,8 +515,11 @@
 		5BDDA9621CE82CD70057AA81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N52PBWU8RW;
 				INFOPLIST_FILE = Fontello_Swift_Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.caolvchong.Fontello-Swift-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,8 +530,11 @@
 		5BDDA9631CE82CD70057AA81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N52PBWU8RW;
 				INFOPLIST_FILE = Fontello_Swift_Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.caolvchong.Fontello-Swift-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
